@@ -1,0 +1,210 @@
+body{margin:0px;}
+* {font-family: Dotum,'돋움',Helvetica,"Apple SD Gothic Neo",sans-serif;}
+.col{width:100%; max-width:1200px; margin:auto;}
+.hearder{padding-top:20px; padding-bottom:20px; overflow: hidden; margin-bottom:30px;}
+.logo{height:50px;}
+.logo_con{float: left;}
+.right{float:right;}
+.title{margin-bottom: 30px;}
+.container{
+    border:1px solid #eee;
+    height: 5000px;
+    padding:50px;
+    background-color: #F0E8D9;
+}
+
+.naver_btn_con{
+    cursor: pointer;
+    width: 280px;
+    height: 37px;
+    margin-bottom:50px;
+}
+.naver_btn{
+    background-color: rgb(62,199,41);
+    padding:10px;
+    color:white;
+    text-align: center;
+}
+
+.naver{font-weight: bold;}
+.word{font-weight:500}
+
+.youtube_btn_con{
+    padding:10px 20px; 
+    background-color: red; 
+    width : 300px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.youtube_btn{
+    color:white; 
+    text-align:center;
+}
+
+.textbox {
+    padding:20px;
+    height : 170px;
+    width : 300px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 50px;
+    font-family:"jua";
+    background-image: url("../img/bibimbap.jpg");
+}
+
+.ContetEnd {
+    font-size:16px;
+    color:#0000EE;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.CotentTitle {
+    color:#58595B;
+    font-size :32px;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.Cotent {
+    color:#58595B;
+    font-size :16px;
+}
+
+.bc{background-color: bisque}
+.wh{color: white; font-size:30px; font-weight: bold;}
+.es{color:red; font-weight: bold;}
+.circle{width:250px; height:250px; border:2px solid rosybrown; border-radius: 50%;}
+.board_wrap {max-width: 1170px; margin:auto; text-align: center}
+.board_con{padding-top:20px; padding-bottom:20px; border-bottom:1px solid salmon; margin-bottom:20p;}
+.board_title{font-size:30px; line-height:35px; margin-bottom:30px; font-weight: bold;}
+.board_contents{font-size:20px; line-height:25px;}
+.img {margin-bottom:30px;}
+.bod{border:2px solid darkorange; margin-right:20px;}
+.bod2{border:2px solid darkorange; padding:10px; margin-right:20px; }
+
+
+
+/* 코드잇 광고 */
+  .codeit {
+    width : 180px;
+    height: 180px;
+    float: left;
+    margin-right:15px;
+    margin-bottom: 15px;
+  
+  }
+  
+  /* 야너두 광고 */
+  .youtoo {
+    width : 180px;
+    height: 180px;
+    float: right;
+    margin-left:15px;
+    margin-bottom: 15px;
+  }
+  
+  .main_content{max-width:800px; margin:auto;}
+
+  .main_content .h3_title {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.main_content .h3_des {
+    font-size: 13px;
+    line-height: 26px;
+    margin-bottom: 105px;
+}
+
+.img_box {
+    float: right;
+    margin-left: 115px;
+    margin-bottom: 145px;
+    margin-top: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  
+  
+  input{
+      border:none;
+  }
+  
+  .login-form {
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-left: 20px;
+      border: 1px solid;
+      border-radius: 5px;
+      border-color:#EEEFF1;
+      width:300px;
+      margin:auto;
+      background-color: #EEEFF1;
+  }
+  
+  .text-field {
+      padding:10px;
+      width:260px;
+      margin-top:10px;
+      border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .submit-btn {
+      border-radius: 5px;
+      width:260px;
+      margin-top:10px;
+      font-size: 14px;
+      background-color:#1BBC9B;
+      padding:10px;
+      color:#FFFFFF;
+  }
+  
+  .submit-btn:hover {
+      border-radius: 5px;
+      width:260px;
+      margin-top:10px;
+      font-size: 14px;
+      background-color:#1BBC9B;
+      padding:10px;
+      color:#FFFFFF;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+  }
+  
+  .links {
+      text-align : center;
+      margin-top:30px;
+      padding-bottom: 20px
+  }
+  
+  .links a {
+      color :#9B9B9B;
+    font-size: 12px;
+  }
+  
+.likelion{color:orange; font-size:20px; font-weight:bold;}
+
+
+/* font_css */
+.project_title{color:orange}
+.words{font-size:20px; line-height:32px;}
+
+/* img */
+.ryan_title{font-size:30px; color:orange;}
+.ryan_desc{font-size:20px;}
+.prodo_title{font-size:30px; color:rosybrown}
+.prodo_desc{font-size:20px;}
+
+/*  */
+
+  .img_bak{width:100%; height: 100vh; ;padding-top: 200px; background-image: url("../img/bg.jpg"); background-size: cover;}
