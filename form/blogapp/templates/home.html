@@ -1,0 +1,16 @@
+<h1>This is home page</h1>
+
+{% for blog in blogs.all %}
+<div class="container">
+    <h1>제목 : <a href="{% url 'detail' blog.id %}">{{blog.title}}</a></h1>
+    <h2>내용 : {{blog.body}}</h2>
+    <h2>날짜 : {{blog.pub_date}}</h2>
+
+    <a href="{% url 'update' blog.id %}">수정하기</a><br>
+    <a href="{% url 'delete' blog.id %}">삭제하기</a>
+
+    <br><br>
+</div>
+{% endfor %}
+
+<a href="{% url 'new' %}">새글쓰러가기</a>

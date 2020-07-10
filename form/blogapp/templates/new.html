@@ -1,0 +1,22 @@
+<h1>새글 작성하기페이지</h1>
+
+<div class="container">
+    <form action="{% url 'create' %}" method="POST">
+        {% csrf_token%}
+        <h1>제목: </h1>
+        <input type="text" name="title">
+        <h2>내용</h2>
+        <textarea name="body" col="30" row="10"></textarea>
+        <input class="btn btn-dark" type="submit" value="제출">
+    </form>
+</div>
+
+
+
+<div class="container">
+    <form method="POST">
+        {% csrf_token%}
+        {{ form }}
+        <input class="btn btn-dark" type="submit" value="제출">
+    </form>
+</div>
