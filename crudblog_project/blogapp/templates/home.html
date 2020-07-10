@@ -1,0 +1,26 @@
+{% extends 'base.html'%}
+
+
+{% block contents %}
+<p></p>
+
+{% for blog in blogs.all %}
+
+<div class="container">
+    <div class="card" style="width:50rem;">
+        <div class="card-body">
+            <a href="{% url 'detail' blog.id %}"><h5 class="card-title">{{ blog.title }}</h5></a>
+            <h6 class="card-subtitle mb-2 text-muted">{{ blog.pub_date }}</h6>
+            <p class="card-text">{{ blog.body }}</p>
+            <a href="{% url 'delete' blog.id%}" class="card-link">삭제하기</a>
+            <a href="{% url 'update' blog.id%}" class="card-link">수정하기</a>
+        </div>
+    </div>
+</div>
+<p></p>
+{% endfor %}
+
+<div class="container">
+    <a href="{% url 'new' %}"> new post </a>
+</div>
+{% endblock %}

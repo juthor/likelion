@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block contents %}
+<style>
+.testimonials {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+</style>
+
+
+<section class="testimonials text-center bg-light">
+    <div class="container">
+      <div class="likelion">
+        <h2 class="mb-5" sytle="padding-bottom:10pm;">Blog Ju?</h2>
+        <img src="{% static 'likelion.jpg' %}" style="padding-bottom:30px; text-align: center; width:600px; height:400px;">
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <h5>멋쟁이사자처럼 7기 1학기</h5><p></p>
+            <p class="font-weight-light mb-0">한 학기동안 가장 중요했고 어려웠던 파트라 직접 다시 만들어 보는 프로젝트를 진행하였습니다</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <h5>소감</h5><p></p>
+            <p class="font-weight-light mb-0">처음에는 myvenv하는 것도 어려웠는데 조금씩 실력이 늘어감을 느끼고 있습니다. 
+              가장 어려웠던 blog를 다시 만들어 보면서 재미있었고, 에러가 떠서 힘들기도 했지만 그만큼 성취감도 느낄 수 있었습니다.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <h5>Future</h5><p></p>
+            <p class="font-weight-light mb-0">2학기와 다가오는 해커톤에도 즐겁게 참여하고자 합니다</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
