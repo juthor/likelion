@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <title>Wordcount Application</title>
+</head>
+
+<body>
+    <div class="full" style="margin-bottom: 100px;">
+        <div class="wordcounttitle">
+            <a href="" class="text-decoration-none" style="color: white;"><h1>Wordcount Application</a></h1>
+        </div>
+        <a href="{%url 'about'%}" class="text-decoration-none" style="padding-left:400px">ABOUT</a>
+
+        <form action="{%url 'result'%}">
+            <div class="textareabox" style="text-align: center">
+                <textarea cols="100" rows="10" name="fulltext" placeholder="몇개의 단어로 이루어져 있을까요? 여기에 입력해주세요!"></textarea>
+                <br>
+                <input type="submit" value="COUNT!" style="width: 20%; height:50px; background-color: orange; color: white; border: none;">
+            </div>
+        </form>
+    </div>
+    <footer class="footer" style="position:fixed; bottom:0px; height:40px; width:100%; background-color:rgb(197, 229, 241); text-align:center;">
+        2019 copyright Kim Hyun Ju
+    </footer>
+</body>
+</html>

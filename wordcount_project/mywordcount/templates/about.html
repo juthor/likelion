@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <title>
+           ABOUT
+        </title>
+    </head>
+
+    <body>
+        <div class="full" style="margin-bottom: 100px;">
+            <section id="get-started" class="padd-section text-center wow fadeInUp">
+                <div class="resultbackground">
+                    <div class="resulttitle">
+                        <h1>About</h1>
+                    </div>
+                    <div class="resulttohome">
+                        <a href="/home" class="btn btn-outline-warning">Home <br>홈으로 가쟈</a></button>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <p><h3>wordcount는 이렇게 만들어 졌습니다</h3></p>
+                    <br><br>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-block">
+                            <img src="{% static 'hyunju.jpg' %}" alt="img" class="img-fluid" style="width:80%; height:250px">
+                            <h4>Kim Hyun Ju</h4>
+                            <p><br>Hankuk University of Foreign Studies</p>
+                            Major CES
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-block">
+                            <img src="{% static 'korean.png' %}"  style="width:100%; height:100%">
+                            <h4>Word count</h4>
+                            <br>포털 사이트에 글자수 검색을 사용하고 입력하면
+                            <br>총 몇개의 단어로 이루어져있는지 나오는데
+                            <br>어떤 단어가 있고 총 몇개로 구성되어 있는지
+                            <br>직접 카운팅 해보고 싶어서 제작하였습니다
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                    <div class="feature-block">
+                        <img src="https://img.freepik.com/free-vector/thank-you-lettering-with-curls_1262-6964.jpg?size=626&ext=jpg" alt="img" style="width:100%; height:100%">
+                        <h4>Update</h4>
+                        <br>Recently update 2019.04.07
+                        <br>CONTACT. jemmaa1@likelion.org<br>
+                        <br>THANK YOU      
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </div>
+        
+        <footer class="footer" style="position:fixed; bottom:0px; height:40px; width:100%; background-color:rgb(197, 229, 241); text-align:center;">
+            2019 copyright Kim Hyun Ju
+        </footer>
+    </body>
+</html>

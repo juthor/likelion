@@ -1,0 +1,61 @@
+
+/*home.html*/
+.wordcounttitle{
+    text-align: center;
+    margin-bottom:50px;
+    font-family: 'Lobster';
+    background-color: #ff9400;
+    padding: 30px 20px 30px 40px;
+}
+
+/*about.html*/
+.aboutbackground{
+    text-align: center;
+    margin-bottom:50px;
+    background-color:rgb(17, 5, 85);
+    padding: 30px 20px 30px 40px;
+}
+.section-title{
+    font-family: 'Lobster';
+    display: inline-block;
+    text-align: center;
+}
+
+.gotohomebutton{
+    text-align: right;
+    float: right;
+}
+.padd-section{
+    padding-bottom: 50px;
+}
+
+/*result.html*/
+.resultbackground{
+    text-align: center;
+    margin-bottom:50px;
+    background-color:gray;
+    padding: 30px 20px 30px 40px;
+  }
+
+.resulttitle{
+    color: #000000;
+    font-family: 'Lobster';
+    display: inline-block;
+    text-align: center;
+}
+.resulttohome{
+    text-align: right;
+    float: right;
+}
+
+
+/*footer*/
+.footer{ 
+    position:fixed; 
+    left:0px; 
+    bottom:0px; 
+    height:60px; 
+    width:100%; 
+    background-color:grey; 
+    text-align: center; 
+}
