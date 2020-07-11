@@ -1,0 +1,14 @@
+<div class="container">
+    <form action="{% url 'edit' text.id%}" method="POST">
+    {% csrf_token%}
+    <h4>제목:</h4>
+    <input type="text" name='name' value={{text.title}}>
+    <br>
+    <br>
+    <h4>내용:</h4>
+    <textarea cols=40 rows=10 name='contents'>{{text.body}}</textarea>
+    <br>
+    <br>
+    <input type="submit" value="제출하기">
+    </form>
+</div>
