@@ -8,6 +8,6 @@
  * MarkovChain 알고리즘 코드 (마르코프 체인 알고리즘이 구현된 python 코드 활용) https://github.com/jcbozonier/MarkovMusic 
  * 생성된 Mid 파일을 재생할 사이트 https://onlinesequencer.net/ 
 
-### 다운로드 명령어
-pip install pysynth
-pip install pyknon
+### 다운로드 명령어 
+pip install pysynth  
+pip install pyknon 

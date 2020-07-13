@@ -1,14 +1,16 @@
 {% extends 'base.html' %}
-
-{% block contents %}
-<div class="container" style="padding-top:100px; ">
+{% block content %}
+<div>
     <h1>Sign Up!</h1>
-
     <form method="POST" action="{% url 'signup' %}">
         {% csrf_token %}
         Username:
         <br>
         <input name="username" type="text" value="">
+        <br>
+        Email:
+        <br>
+        <input name="email" type="email" value="">
         <br>
         Password:
         <br>
@@ -19,7 +21,7 @@
         <input name="password2" type="password" value="">
         <br>
         <br>
-        <input class="btn btn-primary" type="submit" value="Sign Up!">
+        <input type="submit" value="Sign Up!">
     </form>
 </div>
 {% endblock %}

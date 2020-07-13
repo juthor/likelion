@@ -10,7 +10,7 @@
 6. [crud study](https://github.com/juthor/likelion/tree/master/crud%20study) 
 7. [form study](https://github.com/juthor/likelion/tree/master/form%20study) 
 8. [ai composition study](https://github.com/juthor/likelion/tree/master/aicomposition%20study) 
-9. [google login](https://github.com/juthor/likelion/tree/master/google%20login%20study) 
+9. [emailing study](https://github.com/juthor/likelion/tree/master/emailing%20study%20) 
 10. [opencv study](https://github.com/juthor/likelion/tree/master/opencv%20study(summmer)) 
 11. [firstrest](https://github.com/juthor/likelion/tree/master/firstrest) 
 12. [viewset](https://github.com/juthor/likelion/tree/master/viewset) 

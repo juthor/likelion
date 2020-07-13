@@ -11,4 +11,4 @@ db.sqlite3
 media
 secrets.json
 Procfile
-requirements
+runtime.txt
