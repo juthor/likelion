@@ -1,3 +1,9 @@
+# React Django CRUD Project-대나무 숲 글 작성하기
+### 결과 화면
+  <center><img src="./img/result.png" alt="" height="250px" width="550px"/></center>
+
+
+<br/><br/>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
