@@ -47,5 +47,5 @@ for i in range(0, 500):
     start_note = matrix.next_note(start_note)
     random_song.append(start_note)
 
-ps.make_wav(random_song, fn='C:/Users/hyunju/Desktop/temp/main5music.wav')
+ps.make_wav(random_song, fn='C:/Users/main5music.wav')
 #make_midi(midi_path='C:/Users/seung/Desktop/ai_session_midi//random_mix.mid', notes=random_song)

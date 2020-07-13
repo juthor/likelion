@@ -29,7 +29,7 @@ def make_midi(midi_path, notes, bpm=120):
 # undertail
 song = [('g#3', 16.0), ('e4', 16.0), ('d#4', 16.0), ('d4', 16.0), ('d#4', 16.0), ('r', 16.0), ('c#4', 16.0), ('b3', 16.0), ('a#3', 16.0), ('r', 16.0), ('g#3', 16.0), ('g3', 16.0), ('g#3', 16.0), ('r', 16.0), ('d#3', 16.0), ('e3', 16.0), ('d#3', 16.0), ('e3', 16.0), ('d#3', 16.0), ('d3', 16.0), ('d#3', 16.0), ('g3', 16.0), ('b3', 16.0), ('a#3', 16.0), ('g#3', 16.0), ('r', 16.0), ('g#3', 16.0), ('a#3', 16.0), ('b3', 16.0), ('r', 16.0), ('a#3', 16.0), ('b3', 16.0), ('c#4', 16.0), ('r', 16.0), ('b3', 16.0), ('a#3', 16.0), ('g3', 16.0), ('r', 16.0), ('g3', 16.0), ('a#3', 16.0), ('b3', 16.0), ('r', 16.0), ('a#3', 16.0), ('g#3', 16.0), ('d#3', 16.0), ('r', 16.0), ('d#3', 16.0), ('e3', 16.0), ('d#3', 16.0), ('e3', 16.0), ('d#3', 16.0), ('d3', 16.0), ('d#3', 16.0), ('g3', 16.0), ('b3', 16.0), ('a#3', 16.0), ('g#3', 16.0), ('r', 16.0), ('g#3', 16.0), ('g3', 16.0), ('g#3', 16.0), ('r', 16.0), ('g#4', 16.0)]
 
-#ps.make_wav(song, fn='C:/Users/hyunju/Desktop/temp/main4music.wav')
+#ps.make_wav(song, fn='C:/Users/main4music.wav')
 
 matrix = MusicMatrix(song)
 
@@ -42,4 +42,4 @@ for i in range(0, 100):
 
 # # ps.make_wav(random_song, fn='examples/random_undertail.wav')
 
-make_midi(midi_path='C:/Users/hyunju/Desktop/temp/main4musicmid.mid', notes=random_song)
+make_midi(midi_path='C:/Users/main4musicmid.mid', notes=random_song)

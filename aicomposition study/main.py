@@ -33,7 +33,7 @@ def make_midi(midi_path, notes, bpm=120):
 song = [['c4', 4], ['c4', 4], ['c4', 4], ['d4', 8], ['e4', 4], ['e4', 4], ['d4', 8], ['e4', 4], ['f4', 8], ['g4', 2], ['c4', 8], ['c4', 8], ['c4', 8], ['g4', 8], ['g4', 8], ['g4', 8], ['e4', 8], ['e4', 8], ['e4', 8], ['c4', 8], ['c4', 8], ['c4', 8], ['g4', 4], ['f4', 8], ['e4', 4], ['d4', 8], ['c4', 2]]
 
     # pysynth패키지를 활용해서 음표 리스트를, wav파일로 바탕화면에 저장.
-#ps.make_wav(song, fn='C:/Users/hyunju/Desktop/temp/first.wav')
+#ps.make_wav(song, fn='C:/Users/Desktop/temp/first.wav')
 
 # # 마르코프 체인 모델로 음악 학습하기. matrix변수에 마르코프 체인으로 학습한 확률표가 저장되게 된다. 
 matrix = MusicMatrix(song)
@@ -48,7 +48,7 @@ for i in range(0, 100):
     start_note = matrix.next_note(start_note)
     random_song.append(start_note)
 
-#ps.make_wav(random_song, fn='C:/Users/hyunju/Desktop/temp/seccond.wav')
-make_midi(midi_path='C:/Users/hyunju/Desktop/temp/second.mid', notes=random_song)
+
+make_midi(midi_path='C:/Users/second.mid', notes=random_song)
 
 
